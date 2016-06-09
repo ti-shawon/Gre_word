@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2016, 3:56:27 AM
+    Author     : TIS
+*/
+
+
+
+
+#logInBtn:hover {
+    
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#passbox:hover {
+    
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#namebox:hover {
+    
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+
+#meaning:hover{
+    -fx-background-color: #ABEBC6  ;
+    -fx-padding: 8 8 8 8;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+        
+}
+#click:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+
+#know:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#dntknow:hover{
+   -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl1:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl2:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl3:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl4:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl5:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}#lvl6:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl7:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl8:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}#lvl9:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl10:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl11:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}#lvl12:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl13:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+#lvl14:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}#lvl15:hover{
+    -custom-solid-button-color: derive(lightgreen, 20%);
+    -fx-effect: dropshadow(gaussian, goldenrod, 10, 0, 3, 3);
+}
+
+
+
+
+

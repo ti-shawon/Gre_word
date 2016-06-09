@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="493.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gre.PracticeController">
+   <children>
+      <ImageView fitHeight="493.0" fitWidth="571.0">
+         <image>
+            <Image url="@../image/PaintSquares_1920x1234.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="word" alignment="CENTER" editable="false" focusTraversable="false" layoutX="39.0" layoutY="70.0" prefHeight="45.0" prefWidth="506.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <Button fx:id="know" contentDisplay="CENTER" layoutX="79.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#consent_clicked" prefHeight="38.0" prefWidth="426.0" style="-fx-background-color: #d2ffcc; -fx-background-radius: 0 15 0 15; -fx-background-insets: 0 1 2;" stylesheets="@button.css" text="I knew the meaning" textFill="#096f28">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="dntknow" layoutX="79.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#rejection_clicked" prefHeight="38.0" prefWidth="426.0" style="-fx-background-insets: 01 2; -fx-background-radius: 15 0 15 0; -fx-background-color: #ffbab7;" stylesheets="@button.css" text="I don't know the meaning" textFill="#ee0b0b">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextArea fx:id="sentence" editable="false" layoutX="39.0" layoutY="191.0" prefHeight="98.0" prefWidth="506.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextArea>
+      <TextArea fx:id="meaning" editable="false" layoutX="39.0" layoutY="131.0" prefHeight="38.0" prefWidth="506.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></TextArea>
+      <Button layoutX="401.0" layoutY="454.0" mnemonicParsing="false" onAction="#go_to_web" prefHeight="25.0" prefWidth="155.0" text="Link" textFill="#4710c9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

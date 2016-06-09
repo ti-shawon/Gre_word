@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gre.LoginController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../image/afa.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="validity_check" alignment="CENTER" layoutX="345.0" layoutY="272.0" prefHeight="29.0" prefWidth="193.0" textFill="#da6b4a">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button fx:id="sign_up" layoutX="489.0" layoutY="357.0" mnemonicParsing="false" onAction="#sign_up_clicked" stylesheets="@button.css" text="Sign up" textFill="#080807">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="namebox" layoutX="341.0" layoutY="97.0" prefHeight="37.0" prefWidth="200.0" promptText="Username" style="-fx-background-radius: 15 0 15 0;" stylesheets="@button.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow height="31.26" radius="17.755" width="41.76" />
+         </effect>
+      </TextField>
+      <PasswordField fx:id="passbox" layoutX="341.0" layoutY="156.0" prefHeight="37.0" prefWidth="200.0" promptText="Password" style="-fx-background-radius: 15 0 15 0;" stylesheets="@button.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.26" radius="17.755" width="41.76" />
+         </effect>
+      </PasswordField>
+      <Button fx:id="logInBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="341.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#On_Login_Clicked" prefHeight="29.0" prefWidth="200.0" style="-fx-background-radius: 15 0 15 0;" stylesheets="@button.css" text="Log in" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.08095238095238096" startY="0.1380952380952381">
+               <stops>
+                  <Stop color="#432727" />
+                  <Stop color="#8a5646" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <InnerShadow choke="0.16" height="9.14" width="32.86" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#c62f2f" layoutX="300.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Need New Acount ?" wrappingWidth="183.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

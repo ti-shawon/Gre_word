@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="575.0" style="-fx-background-color: #D7BDE2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gre.WordController">
+   <children>
+      <ProgressBar fx:id="mastered_bar" layoutX="62.0" layoutY="361.0" onMouseClicked="#masterlist" prefHeight="26.0" prefWidth="423.0" progress="0.63" stylesheets="@button.css" />
+      <ProgressBar fx:id="reviewing_bar" layoutX="62.0" layoutY="429.0" onMouseClicked="#reviewlist" prefHeight="26.0" prefWidth="423.0" progress="0.4" style="-fx-effect: striped;" stylesheets="@button.css" />
+      <ProgressBar fx:id="learning_bar" layoutX="62.0" layoutY="486.0" onMouseClicked="#learninglist" prefHeight="26.0" prefWidth="423.0" progress="0.05" stylesheets="@button.css" />
+      <TextField fx:id="word" alignment="CENTER" editable="false" layoutX="19.0" layoutY="14.0" prefHeight="238.0" prefWidth="543.0" style="-fx-background-radius: 45 0 45 0; -fx-background-color: #FDEDEC;">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="condition" alignment="CENTER" editable="false" layoutX="62.0" layoutY="28.0" opacity="0.42" prefHeight="20.0" prefWidth="111.0" style="-fx-background-radius: 0; -fx-border-style: hidden;">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <Label fx:id="mastered_state" layoutX="62.0" layoutY="326.0" prefHeight="25.0" prefWidth="341.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="reviewing_state" layoutX="62.0" layoutY="398.0" prefHeight="25.0" prefWidth="341.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="learning_state" layoutX="62.0" layoutY="461.0" prefHeight="25.0" prefWidth="341.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="meaning" layoutX="21.0" layoutY="269.0" mnemonicParsing="false" onMousePressed="#show_meaning" prefHeight="37.0" prefWidth="543.0" style="-fx-border-width: 3; -fx-border-style: dotted; -fx-border-color: black; -fx-background-color: #E4FCCE;" stylesheets="@button.css" text="Show Meaning" textFill="#070707">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

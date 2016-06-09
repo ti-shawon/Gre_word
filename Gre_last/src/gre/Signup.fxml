@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gre.SignupController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="604.0">
+         <image>
+            <Image url="@../image/22.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="227.0" layoutY="59.0" prefHeight="54.0" prefWidth="212.0" text="New Account" textFill="#e41616">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" alignment="CENTER" layoutX="199.0" layoutY="148.0" prefHeight="37.0" prefWidth="228.0" promptText="Enter Your Name" style="-fx-background-radius: 15 0 15 0;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="199.0" layoutY="208.0" prefHeight="34.0" prefWidth="228.0" promptText="Password" style="-fx-background-radius: 15 0 15 0;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="click" layoutX="199.0" layoutY="267.0" mnemonicParsing="false" onMouseClicked="#mouse_clicked" prefHeight="34.0" prefWidth="228.0" style="-fx-background-radius: 15 0 15 0;" stylesheets="@button.css" text="Create Account">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
